@@ -52,7 +52,7 @@ const ListConstruct = function (value) {
       }
       return printName(List.next);
     };
-    console.log(printName(head));
+    return printName(head);
   };
 
   const find = function (query) {
@@ -106,7 +106,6 @@ const ListConstruct = function (value) {
     contains,
     pop,
     size,
-    tail,
   };
 };
 
